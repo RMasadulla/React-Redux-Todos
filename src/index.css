@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* simple design */
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.box {
+  background-color: blueviolet;
+  width: 200px;
+  height: auto;
+}
